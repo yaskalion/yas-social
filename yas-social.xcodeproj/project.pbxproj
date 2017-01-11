@@ -72,9 +72,8 @@
 		55BD60C81E2557520078D3EB /* yas-social */ = {
 			isa = PBXGroup;
 			children = (
-				55DF17F11E2559D400BED7BB /* View */,
-				55DF17F01E2559C700BED7BB /* Controller */,
 				55DF17EF1E2559BF00BED7BB /* Model */,
+				55DF17F01E2559C700BED7BB /* Controller */,
 				55BD60C91E2557520078D3EB /* AppDelegate.swift */,
 				55BD60CD1E2557520078D3EB /* Main.storyboard */,
 				55BD60D01E2557520078D3EB /* Assets.xcassets */,
@@ -96,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				55BD60CB1E2557520078D3EB /* SignInVC.swift */,
+				55DF17F11E2559D400BED7BB /* View */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
