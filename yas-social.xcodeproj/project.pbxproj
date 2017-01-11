@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558D331D1E2680AB0014B6A6 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D331C1E2680AB0014B6A6 /* FancyView.swift */; };
+		558D33201E2686570014B6A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D331F1E2686570014B6A6 /* Constants.swift */; };
+		558D33231E26920B0014B6A6 /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D33221E26920B0014B6A6 /* RoundedBtn.swift */; };
 		55BD60CA1E2557520078D3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD60C91E2557520078D3EB /* AppDelegate.swift */; };
 		55BD60CC1E2557520078D3EB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD60CB1E2557520078D3EB /* SignInVC.swift */; };
 		55BD60CF1E2557520078D3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BD60CD1E2557520078D3EB /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		113D6ABBEE78D804F6DFEB7B /* Pods-yas-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yas-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-yas-social/Pods-yas-social.release.xcconfig"; sourceTree = "<group>"; };
 		479475CF02C2613B6E92764A /* Pods-yas-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yas-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yas-social/Pods-yas-social.debug.xcconfig"; sourceTree = "<group>"; };
+		558D331C1E2680AB0014B6A6 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		558D331F1E2686570014B6A6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		558D33221E26920B0014B6A6 /* RoundedBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBtn.swift; sourceTree = "<group>"; };
 		55BD60C61E2557520078D3EB /* yas-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yas-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BD60C91E2557520078D3EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BD60CB1E2557520078D3EB /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -51,6 +57,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		558D331E1E2686280014B6A6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				558D331F1E2686570014B6A6 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		55BD60BD1E2557510078D3EB = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +86,7 @@
 		55BD60C81E2557520078D3EB /* yas-social */ = {
 			isa = PBXGroup;
 			children = (
+				558D331E1E2686280014B6A6 /* Util */,
 				55DF17EF1E2559BF00BED7BB /* Model */,
 				55DF17F01E2559C700BED7BB /* Controller */,
 				55BD60C91E2557520078D3EB /* AppDelegate.swift */,
@@ -103,6 +118,8 @@
 		55DF17F11E2559D400BED7BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				558D331C1E2680AB0014B6A6 /* FancyView.swift */,
+				558D33221E26920B0014B6A6 /* RoundedBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -242,6 +259,9 @@
 			files = (
 				55BD60CC1E2557520078D3EB /* SignInVC.swift in Sources */,
 				55BD60CA1E2557520078D3EB /* AppDelegate.swift in Sources */,
+				558D33231E26920B0014B6A6 /* RoundedBtn.swift in Sources */,
+				558D331D1E2680AB0014B6A6 /* FancyView.swift in Sources */,
+				558D33201E2686570014B6A6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
